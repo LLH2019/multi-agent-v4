@@ -217,7 +217,7 @@ public class BrainControlActor extends AbstractBehavior<BasicCommon> {
 
                 allResourceProcessInfoMaps.put(msg.getResourceName(), msg.getHaveAssignedProcessInfos());
                 List<List<int[]>> processSituation = new ArrayList<>();
-                for (int i=0; i<20; i++) {
+                for (int i=0; i<GlobalAkkaPara.taskNum*GlobalAkkaPara.taskSize; i++) {
                     processSituation.add(new ArrayList<>());
                 }
                 for (Map.Entry<String, List<ProcessInfo>> entry : allResourceProcessInfoMaps.entrySet()) {
@@ -302,7 +302,7 @@ public class BrainControlActor extends AbstractBehavior<BasicCommon> {
             }
 //
             List<List<int[]>> processSituation = new ArrayList<>();
-            for (int i=0; i<20; i++) {
+            for (int i=0; i<GlobalAkkaPara.taskNum*GlobalAkkaPara.taskSize; i++) {
                 processSituation.add(new ArrayList<>());
             }
 

@@ -1,9 +1,11 @@
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\AskFinalResourceInfo.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\example\cc3200\kafka\KafkaConsumerDemo.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\bean\MqttConfig.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\NewDeviceConn.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\MdTaskActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\bean\KafkaMsg.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\msg\handler\MessageHandler.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontDealOneTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\ReadTxt.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\bean\BasicCommon.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\SimulationDataGenerator.java
@@ -21,11 +23,14 @@ D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\DealMsg.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\StartBiding.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\type\DataType.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\example\cc3200\bean\KafkaData.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontAskOneTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\bean\AbstractModel.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\bean\KafkaConfig.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontDealTwoTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\ReadLog.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\ReadOutputGAData.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\bean\MqttInMsg.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\ResponseFinalResourceInfo.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\bean\SubscribeTopic.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\CalculateHandleCost.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\example\cc3200\Main.java
@@ -36,6 +41,7 @@ D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\global\GlobalAkkaPara.jav
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\DeviceCloudActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\InsertMongoDBDoc.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\connect\CloudKafkaConnectIn.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontResponseTwoTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\connect\CloudKafkaConsumer.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\BrainControlActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\example\cc3200\kafka\CommonKafkaConsumerDemo.java
@@ -46,6 +52,7 @@ D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\ActorBootstrapMain.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\type\TopicKey.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\GetDeviceModelDoc.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\front\GetKafkaMsg.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontResponseOneTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\ProposeMsg.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\bean\Event.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\SecondBrainActor.java
@@ -57,6 +64,7 @@ D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\bean\Property.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\RTScheduleActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\CreateNewMongoDBConn.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\MongoDBConnActor.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\FrontAskTwoTime.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\actor\DetectionActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\example\cc3200\actor\SupervisorActor.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\AskingExchange.java
@@ -68,6 +76,7 @@ D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\util\CalculateHandleCostD
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\global\GlobalActorRefName.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\DownConnectOut.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\BidingMsg.java
+D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\ProcessInfo.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\base\model\connect\MqttConnectIn.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\front\DeviceInfo.java
 D:\Coding\JavaProject\multi-agent4\src\main\java\cloud\bean\ProcessTime.java

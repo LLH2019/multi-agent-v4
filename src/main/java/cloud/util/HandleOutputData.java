@@ -29,7 +29,7 @@ public class HandleOutputData {
         try { // 防止文件建立或读取失败，用catch捕捉错误并打印，也可以throw
 
             /* 读入TXT文件 */
-            String pathname ="D:\\Coding\\JavaProject\\multi-agent4\\data\\output" + resourceSize + "-" + (taskSize*taskNum) +"-" + rapid +".txt"; // 绝对路径或相对路径都可以，这里是绝对路径，写入文件时演示相对路径
+            String pathname ="D:\\Coding\\JavaProject\\multi-agent4\\data\\output-return-two" + resourceSize + "-" + (taskSize*taskNum) +"-" + rapid +".txt"; // 绝对路径或相对路径都可以，这里是绝对路径，写入文件时演示相对路径
             File filename = new File(pathname); // 要读取以上路径的input。txt文件
             InputStreamReader reader = new InputStreamReader(
                     new FileInputStream(filename)); // 建立一个输入流对象reader
@@ -77,20 +77,22 @@ public class HandleOutputData {
 
     public static void main(String[] args) {
         HandleOutputData handleOutputData = new HandleOutputData();
-
+        List<Integer> averageList = new ArrayList<>();
         Map<Integer, List<Integer>>  maxNumMaps =  new HashMap<>();
-        for(int taskNum=1; taskNum<=1; taskNum++) {
+        for(int taskNum=1; taskNum<=10; taskNum++) {
             if (!maxNumMaps.containsKey(taskNum)) {
                 maxNumMaps.put(taskNum, new ArrayList<>());
             }
-            for (int rapid = 1; rapid <= 1; rapid++) {
+            int total = 0;
+            for (int rapid = 1; rapid <= 10; rapid++) {
                 int taskSize = 20;
                 int resourceSize = 20;
                 int maxNum = handleOutputData.handleOutputData(taskNum, rapid, taskSize, resourceSize);
-
+                total += maxNum;
                 List<Integer> maxNumList = maxNumMaps.get(taskNum);
                 maxNumList.add(maxNum);
             }
+            averageList.add(total/10);
         }
 
         StringBuffer sb = new StringBuffer();
@@ -105,6 +107,13 @@ public class HandleOutputData {
             System.out.println();
         }
         System.out.println(sb.toString());
+
+        StringBuffer newSb = new StringBuffer();
+        for (int i=0; i<averageList.size(); i++) {
+            newSb.append(averageList.get(i));
+            newSb.append(',');
+        }
+        System.out.println(newSb.toString());
 
     }
 
